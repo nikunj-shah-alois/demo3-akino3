@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: ["akino3.akinolabs.io"],
+    allowedHosts: true, // ✅ allow all hosts (IMPORTANT)
     hmr: {
       protocol: "wss",
       host: "akino3.akinolabs.io",
