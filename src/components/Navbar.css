@@ -1,0 +1,106 @@
+#header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#header_meta {
+    background: #f89406;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#header_meta .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+}
+
+.top-links a:hover {
+    opacity: 0.8;
+}
+
+.language-btns a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.language-btns a.active {
+    background: rgba(255,255,255,0.2);
+}
+
+#header_main {
+    padding: 15px 0;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover, .menu li a.active-nav {
+    color: #0050ac;
+}
+
+.pay-bill a {
+    background: #0050ac;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.pay-bill a:hover {
+    background: #f89406;
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        display: none; /* Mobile menu needed but keeping simple for now */
+    }
+}

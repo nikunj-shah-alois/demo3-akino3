@@ -1,0 +1,176 @@
+{
+  "674ec1a12345678900000001": {
+    "restData": {
+      "_id": { "$oid": "674ec1a12345678900000001" },
+      "name": "Home Page",
+      "description": "The landing page of IO Website",
+      "contentType": "LandingPage",
+      "createdBy": "admin",
+      "createdAt": "2026-04-03T07:35:56Z",
+      "modifiedBy": "Admin",
+      "modifiedAt": "2026-04-03T07:35:56Z",
+      "slug": "home",
+      "seoMetaData": {
+        "metaTitle": "IO Website - Home",
+        "imageData": ""
+      },
+      "parentPage": "None",
+      "seoTagsData": {
+        "tags": ["home", "landing"]
+      },
+      "noOfCollectionItem": null,
+      "status": "published",
+      "latestPublish": "6917026566b187a71cc3edf0"
+    },
+    "674ec1a12345678900000101": {
+      "componentName": "Short Text",
+      "label": "Hero Title",
+      "id": "674ec1a12345678900000101",
+      "value": "Empower your business with next-gen solutions.",
+      "files": "Empower your business with next-gen solutions.",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000102": {
+      "componentName": "Long Text",
+      "label": "Hero Description",
+      "id": "674ec1a12345678900000102",
+      "value": "Transforming concepts into digital reality with cutting-edge expertise in AI, Cloud, and Software Engineering.",
+      "files": "Transforming concepts into digital reality with cutting-edge expertise in AI, Cloud, and Software Engineering.",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000103": {
+      "componentName": "Single Media",
+      "label": "Hero Image",
+      "id": "674ec1a12345678900000103",
+      "value": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+      "files": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000200": [
+      {
+        "collectionData": {
+          "_id": { "$oid": "674ec1a12345678900000211" },
+          "collectionId": "674ec1a12345678900000200",
+          "contentType": "feature",
+          "name": "Cloud Scaling",
+          "slug": "cloud-scaling",
+          "status": "published"
+        },
+        "674ec1a12345678900000201": {
+          "componentName": "Short Text",
+          "label": "Feature Title",
+          "id": "674ec1a12345678900000201",
+          "value": "Cloud Scaling",
+          "files": "Cloud Scaling"
+        },
+        "674ec1a12345678900000202": {
+          "componentName": "Long Text",
+          "label": "Feature Description",
+          "id": "674ec1a12345678900000202",
+          "value": "We handle global traffic with ease through serverless architectures."
+        }
+      },
+      {
+        "collectionData": {
+          "_id": { "$oid": "674ec1a12345678900000212" },
+          "collectionId": "674ec1a12345678900000200",
+          "contentType": "feature",
+          "name": "AI Integration",
+          "slug": "ai-integration",
+          "status": "published"
+        },
+        "674ec1a12345678900000201": {
+          "componentName": "Short Text",
+          "label": "Feature Title",
+          "id": "674ec1a12345678900000201",
+          "value": "AI Integration",
+          "files": "AI Integration"
+        },
+        "674ec1a12345678900000202": {
+          "componentName": "Long Text",
+          "label": "Feature Description",
+          "id": "674ec1a12345678900000202",
+          "value": "Smart algorithms that learn and adapt to your business needs."
+        }
+      }
+    ],
+    "674ec1a12345678900000200_meta": {
+      "componentName": "Collections",
+      "label": "Features Collection",
+      "id": "674ec1a12345678900000200",
+      "status": "published",
+      "childComponents": [
+        {
+          "componentName": "Short Text",
+          "label": "Feature Title",
+          "id": "674ec1a12345678900000201"
+        },
+        {
+          "componentName": "Long Text",
+          "label": "Feature Description",
+          "id": "674ec1a12345678900000202"
+        }
+      ]
+    }
+  },
+  "674ec1a12345678900000002": {
+    "restData": {
+      "_id": { "$oid": "674ec1a12345678900000002" },
+      "name": "Contact Page",
+      "description": "Reach out to us",
+      "contentType": "LandingPage",
+      "createdBy": "admin",
+      "createdAt": "2026-04-03T07:35:56Z",
+      "modifiedBy": "Admin",
+      "modifiedAt": "2026-04-03T07:35:56Z",
+      "slug": "contact",
+      "seoMetaData": {
+        "metaTitle": "IO Website - Contact",
+        "imageData": ""
+      },
+      "parentPage": "None",
+      "seoTagsData": {
+        "tags": ["contact", "reach out"]
+      },
+      "noOfCollectionItem": null,
+      "status": "published",
+      "latestPublish": "6917026566b187a71cc3edf1"
+    },
+    "674ec1a12345678900000301": {
+      "componentName": "Short Text",
+      "label": "Contact Title",
+      "id": "674ec1a12345678900000301",
+      "value": "Get In Touch",
+      "files": "Get In Touch",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000302": {
+      "componentName": "Long Text",
+      "label": "Contact Description",
+      "id": "674ec1a12345678900000302",
+      "value": "Have a project in mind? Let's build something amazing together.",
+      "files": "Have a project in mind? Let's build something amazing together.",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000303": {
+      "componentName": "Short Text",
+      "label": "Address",
+      "id": "674ec1a12345678900000303",
+      "value": "456 Innovation Drive, Tech City",
+      "files": "456 Innovation Drive, Tech City",
+      "isUniqueCheck": { "publish": false }
+    },
+    "674ec1a12345678900000304": {
+      "componentName": "Email",
+      "label": "Support Email",
+      "id": "674ec1a12345678900000304",
+      "value": "contact@iowebsite.io",
+      "files": "contact@iowebsite.io",
+      "isUniqueCheck": { "publish": false }
+    }
+  },
+  "metadata": {
+    "metaTitle": "IO Website CMS",
+    "imageData": ""
+  }
+}
